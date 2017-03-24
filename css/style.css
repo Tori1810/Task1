@@ -1,0 +1,241 @@
+
+@font-face {
+font-family: GothamRoundedBold;
+src: url("../fonts/GothamRounded-Bold.otf");
+}
+
+@font-face {
+font-family: GothamRoundedMedium;
+src: url("../fonts/GothamRounded-Medium.otf");
+}
+
+@font-face {
+font-family: GothamRoundedBoldItalic;
+src: url("../fonts/GothamRounded-BoldItalic.otf");
+}
+
+@font-face {
+font-family: GothamRoundedBook;
+src: url("../fonts/GothamRounded-Book.otf");
+}
+
+@font-face {
+font-family: GothamRoundedBookItalic;
+src: url("../fonts/GothamRounded-BookItalic.otf");
+}
+
+@font-face {
+font-family: GothamRoundedLight;
+src: url("../fonts/GothamRounded-Light.otf");
+}
+
+@font-face {
+font-family: GothamRoundedLightItalic;
+src: url("../fonts/GothamRounded-LightItalic.otf");
+}
+
+@font-face {
+font-family: GothamRoundedMediumItalic;
+src: url("../fonts/GothamRounded-MediumItalic.otf");
+}
+
+@font-face {
+font-family: GothamRoundedBoldSpec;
+src: url("../fonts/GothamRoundedBold_21016.ttf");
+}
+
+@font-face {
+font-family: GothamRoundedBookSpec;
+src: url("../fonts/GothamRoundedBook_21018.ttf");
+}
+
+@font-face {
+font-family: GothamRoundedLightSpec;
+src: url("../fonts/GothamRoundedLight_21020.ttf");
+}
+
+@font-face {
+font-family: GothamRoundedMediumSpec;
+src: url("../fonts/GothamRoundedMedium_21022.ttf");
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+.wrapper{
+	width:1280px;
+	min-height: 750px;
+	margin: 0 auto;
+}
+
+.first, .second, .third, .fuurth, .fifth, .sixst, .seventh{
+	width:100%;
+} 
+
+.first{
+	background: url("../images/background1.jpg") no-repeat;
+	height:715px;
+	padding-top: 30px;
+}
+
+.second{
+	background: url("../images/phone.png") no-repeat 795px 91px,
+				url("../images/hand.png") no-repeat 509px 130px;
+	background-color: #f5f6f7;
+	height:491px;
+	border: 1px solid transparent;
+}
+
+.third{
+	background: url("../images/phone2.png") no-repeat 123px 146px;
+	background-color: #ffffff;
+	height:558px;
+	border: 1px solid transparent;
+	margin-top: -1px;
+}
+
+.fourth{
+	background: #f5f6f7;
+	height:484px;
+}
+
+.fifth{
+	background: url("../images/background2.jpg");
+	height:787px;
+}
+
+.sixst{
+	background: #f5f6f7;
+	height:398px;
+}
+
+.seventh{
+	background: #ffffff;
+	height:131px;
+}
+
+.first .header-menu {
+	margin: 0 0 0 232px;
+	list-style:none;
+}
+
+.first .header-menu li{
+	display:inline-block;
+	margin-right: 60px;
+}
+
+.first .header-menu li a{
+	font-size: 15px;
+	color:#ffffff;
+	text-decoration:none;
+	font-family: GothamRoundedBold;
+	letter-spacing: 3px;
+}
+
+.first .header-menu li:nth-child(3){
+	position:relative;
+	left:37px;
+	top:10px;
+	margin-right:131px;
+}
+
+.first .header-menu li:nth-child(5) a{
+		margin-left:11px;
+}
+
+.first .first-title1{
+	font-family: GothamRoundedBold;
+	font-size: 35px;
+	letter-spacing: 6px;
+	color: #ffffff;
+	margin-top: 245px;
+	margin-left: 390px;
+}
+
+.first .first-title2{
+	margin-top: -27px;
+	font-size: 17px;
+	color: #ffffff;
+	font-family: GothamRoundedMedium;
+	margin-left: 475px;
+	letter-spacing: 2px;
+}
+
+.first .buttom{
+	margin-top: 24px;
+	letter-spacing: 2px;
+	background: #16a085;
+	font-size: 12px;
+	width: 109px;
+	height: 13px;
+	padding:18px 26px 18px 31px;
+	border-radius: 3px;
+	margin-left: 557px;
+}
+
+.first .buttom a{
+	font-family: GothamRoundedBold;
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.first .fa-twitter, 
+.first .fa-dribbble, 
+.first .fa-flickr{
+	margin-top:220px;
+	margin-right:12px;
+	color:#ffffff;
+}
+
+.first .fa-twitter{
+	margin-left:591px;
+	font-size: 26px;
+}
+
+.first .fa-flickr{
+	margin-right: 13px;
+	font-size:25px;
+}
+
+.first .fa-dribbble{
+	font-size: 24px;
+}
+
+.second .second-title{
+	margin:108px 0 0 128px;
+	padding:0;
+	letter-spacing: 3px;
+	color:#16a085;
+	font-family: GothamRoundedBold; 
+	font-size: 18px;
+}
+
+.second .second-text{
+	margin: 40px 0 0 128px;
+	font-family: GothamRoundedLightSpec;
+	line-height: 200%;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+.second .buttom {
+	margin-top: 40px;
+	letter-spacing: 2px;
+	background: #16a085;
+	font-size: 12px;
+	width: 109px;
+	height: 13px;
+	padding:20px 40px 18px 43px;
+	border-radius: 3px;
+	margin-left: 128px;
+}
+
+.second .buttom a{
+	font-family: GothamRoundedBold;
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.third
