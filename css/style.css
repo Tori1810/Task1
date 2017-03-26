@@ -81,17 +81,17 @@ body{
 }
 
 .second{
-	background: url("../images/phone.png") no-repeat 795px 91px,
-				url("../images/hand.png") no-repeat 509px 130px;
+	background: url("../images/phone.png") no-repeat 795px 90px,
+				url("../images/hand.png") no-repeat 509px 129px;
 	background-color: #f5f6f7;
 	height:491px;
 	border: 1px solid transparent;
 }
 
 .third{
-	background: url("../images/phone2.png") no-repeat 123px 146px;
+	background: url("../images/phone2.png") no-repeat 123px 145px;
 	background-color: #ffffff;
-	height:558px;
+	height:556px;
 	border: 1px solid transparent;
 	margin-top: -1px;
 }
@@ -102,13 +102,13 @@ body{
 }
 
 .fifth{
-	background: url("../images/background2.jpg");
-	height:787px;
+	background: url("../images/background2.jpg") 0 -1px;
+	height:788px;
 }
 
 .sixst{
 	background: #f5f6f7;
-	height:398px;
+	height:394px;
 }
 
 .seventh{
@@ -127,47 +127,47 @@ body{
 }
 
 .first .header-menu li a{
-	font-size: 15px;
+	font-size: 16px;
 	color:#ffffff;
 	text-decoration:none;
 	font-family: GothamRoundedBold;
-	letter-spacing: 3px;
+	letter-spacing: 2.35px;
 }
 
 .first .header-menu li:nth-child(3){
 	position:relative;
-	left:37px;
+	left:36px;
 	top:10px;
-	margin-right:131px;
+	margin-right:130px;
 }
 
 .first .header-menu li:nth-child(5) a{
 		margin-left:11px;
+		letter-spacing: 2.5px;
 }
 
 .first .first-title1{
 	font-family: GothamRoundedBold;
-	font-size: 35px;
-	letter-spacing: 6px;
+	font-size: 36px;
+	letter-spacing: 5.4px;
 	color: #ffffff;
-	margin-top: 245px;
-	margin-left: 390px;
+	margin-top: 244px;
+	margin-left: 391px;
 }
 
 .first .first-title2{
-	margin-top: -27px;
-	font-size: 17px;
+	margin-top: -29px;
+	font-size: 16px;
 	color: #ffffff;
 	font-family: GothamRoundedMedium;
 	margin-left: 475px;
-	letter-spacing: 2px;
+	letter-spacing: 2.4px;
 }
 
 .first .buttom{
-	margin-top: 24px;
-	letter-spacing: 2px;
+	margin-top: 25px;
 	background: #16a085;
-	font-size: 12px;
+	font-size: 0px;
 	width: 109px;
 	height: 13px;
 	padding:18px 26px 18px 31px;
@@ -176,66 +176,348 @@ body{
 }
 
 .first .buttom a{
+	font-size: 12px;
+	letter-spacing: 1.85px;
 	font-family: GothamRoundedBold;
 	text-decoration: none;
 	color:#ffffff;
 }
 
-.first .fa-twitter, 
-.first .fa-dribbble, 
-.first .fa-flickr{
-	margin-top:220px;
-	margin-right:12px;
-	color:#ffffff;
+.first .fa{
+	display: inline-block;
 }
 
-.first .fa-twitter{
-	margin-left:591px;
-	font-size: 26px;
+.first .twitter{	
+	width:23px;
+	height:23px;
+	margin-left:592px;
+	margin-top: 220px;
+	background: url("../images/sprait.png") no-repeat -25px -13px;
 }
 
-.first .fa-flickr{
-	margin-right: 13px;
-	font-size:25px;
+.first .flickr{	
+	width:25px;
+	height:26px;
+	margin-left:9px;
+	background: url("../images/sprait.png") no-repeat -96px -10px;
 }
 
-.first .fa-dribbble{
-	font-size: 24px;
+.first .dribbble{	
+	width:24px;
+	margin-left:8px;
+	height:24px;
+	background: url("../images/sprait.png") no-repeat -177px -11px;
 }
 
 .second .second-title{
 	margin:108px 0 0 128px;
 	padding:0;
-	letter-spacing: 3px;
+	letter-spacing: 2.7px;
 	color:#16a085;
 	font-family: GothamRoundedBold; 
 	font-size: 18px;
 }
 
 .second .second-text{
-	margin: 40px 0 0 128px;
+	margin: 40px 0 0 127px;
 	font-family: GothamRoundedLightSpec;
 	line-height: 200%;
 	font-size: 12px;
-	letter-spacing: 2px;
+	letter-spacing: 1.85px;
+}
+
+.second .second-text b{
+	margin-left: 2px;
 }
 
 .second .buttom {
 	margin-top: 40px;
-	letter-spacing: 2px;
 	background: #16a085;
-	font-size: 12px;
 	width: 109px;
 	height: 13px;
-	padding:20px 40px 18px 43px;
+	padding:18px 40px 20px 43px;
 	border-radius: 3px;
 	margin-left: 128px;
 }
 
 .second .buttom a{
+	font-size: 12px;
+	letter-spacing: 1.8px;
 	font-family: GothamRoundedBold;
 	text-decoration: none;
 	color:#ffffff;
 }
 
-.third
+.third .third-title{
+	margin:141px 0 0 765px;
+	padding:0;
+	letter-spacing: 2.7px;
+	color:#16a085;
+	font-family: GothamRoundedBold; 
+	font-size: 18px;
+}
+
+.third .third-text{
+	margin: 35px 0 0 768px;
+	font-family: GothamRoundedLightSpec;
+	line-height: 185%;
+	font-size: 12px;
+	letter-spacing: 1.85px;
+}
+
+.third .third-text b{
+	margin-left: 2px;
+}
+
+.third .buttom {
+	margin-top: 37px;
+	background: #16a085;
+	width: 109px;
+	height: 13px;
+	padding:16px 39px 22px 44px;
+	margin-left: 766px;
+}
+
+.third .buttom a{
+	font-size: 12px;
+	letter-spacing: 1.8px;
+	font-family: GothamRoundedMedium;
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.third .date{
+	font-size: 12px;
+	letter-spacing: 1.8px;
+	font-family: GothamRoundedBold;
+	margin: 43px 0 0 766px;
+	color:#373737;
+}
+
+.third .left{
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	margin:4px 0 0 763px;
+	background: url("../images/sprait.png") no-repeat -27px -80px;
+}
+
+.third .right{
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	margin-left:14px;
+	background: url("../images/sprait.png") no-repeat -102px -80px;
+}
+
+.fourth img{
+	position:relative;
+}
+
+.fourth .leafs{
+	left: 780px;
+	top: 4px;
+}
+
+.fourth .bus{
+	left:11px;
+	top:4px;
+}
+
+.fourth .camera{
+	left: -562px;
+	top: -141px
+}
+
+.fourth .left{
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	margin:93px 0 0 1110px;
+	background: url("../images/sprait.png") no-repeat -27px -80px;
+}
+
+.fourth .right{
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	margin-left:9px;
+	background: url("../images/sprait.png") no-repeat -102px -80px;
+}
+
+.fourth .fourth-title{
+	font-family: GothamRoundedBold; 
+	font-size: 16px;
+	letter-spacing: 2.35px;
+	margin: -117px 0 0 129px;
+}
+
+.fourth .fourth-text{
+	font-family: GothamRoundedLight;
+	font-size: 10px;
+	width: 200px;
+	margin: 0 0 0 118px;
+	text-align: center;
+	letter-spacing: 1.6px;
+}
+
+.fourth .text1{
+	margin: 19px 0 0 118px;
+}
+
+.fifth{
+	border-top: 1px solid transparent;
+	margin-top:0px;
+}
+
+.fifth .fifth-title{
+	font-family: GothamRoundedBold; 
+	font-size: 24px;
+	color:#ffffff;
+	letter-spacing: 3.6px;
+	margin: 345px 0 0 403px;
+}
+
+.fifth input[name="email"]{
+	position:relative;
+	top:-39px;
+	font-family: GothamRoundedMedium;
+	letter-spacing: 2.5px;
+	font-size:16px;
+	color:#373737;
+	width: 258px;
+	height: 58px;
+	margin: 29px 0 0 467px;
+	padding-left: 22px;
+	border:none;
+	border-radius: 4px 0 0 4px;
+}
+
+.fifth input[name="check"]{
+	position:relative;
+	left:-4px;
+	top:-15px;
+	width: 63px;
+	height:60px;
+	background: #16a085 url("../images/sprait.png") no-repeat -7px -119px;
+	border:none;
+	border-radius: 0 4px 4px 0;
+	margin:44px 0 0 0px;
+}
+
+.sixst{
+	border: 1px solid transparent;
+	margin-top:1px;
+}
+.sixst .sixst-title{
+	font-family: GothamRoundedBold; 
+	font-size: 20px;
+	margin: 85px 0 0 546px;
+	letter-spacing: 3px;
+	color: #373737;
+}
+
+.sixst .sixst-text {
+	width: 841;
+	text-align: center;
+	font-family: GothamRoundedMedium;
+	font-size: 12px;
+	color:#373737;
+	line-height: 90%;
+	letter-spacing: 1.8px;
+	margin-left: -1px;
+}
+
+.sixst .text1{
+	margin-top: 12px;
+}
+
+.sixst .apple-store{
+	display:inline-block;
+	position:relative;
+	top:-20px;
+	font-family: GothamRoundedBold; 
+	font-size: 16px;
+	letter-spacing: 2.4px;
+	color:#ffffff;
+	width:216px;
+	height:35px;
+	border-radius: 2px 0 0 2px;
+	background-color: #1abc9c;
+	margin:35px 0 0 329px;
+	padding:21px 0 0 24px;
+}
+
+.sixst .apple, .sixst .android{
+	display: inline-block;
+	height:56px;
+	width:56px;
+	background: #16a085 url("../images/sprait.png") no-repeat -81px -119px;
+	border-radius: 0 2px 2px 0;
+	margin:35px 0 0 -4px;
+}
+
+.sixst .play-store{
+	display:inline-block;
+	position:relative;
+	top:-21px;
+	font-family: GothamRoundedBold; 
+	font-size: 18px;
+	letter-spacing: 2.7px;
+	color:#ffffff;
+	width:210px;
+	height:38px;
+	border-radius: 2px 0 0 2px;
+	background-color: #1abc9c;
+	margin:35px 0 0 22px;
+	padding:18px 0 0 30px;
+}
+
+.sixst .android{
+	background: #16a085 url("../images/sprait.png") no-repeat -160px -118px;
+}
+
+.seventh{
+	border: 1px solid transparent;
+	margin-top:1px;
+}
+
+.seventh .seventh-text1{
+	display: inline-block;
+	font-family: GothamRoundedBold; 
+	font-size: 14px;
+	letter-spacing: 2.1px;
+	line-height: 90%;
+	color:#373737;
+}
+
+.seventh .credits{
+	margin: 43px 0 0 125px;
+	padding: 0 8px 0 0;
+	border-right: 2px solid #16a085;
+}
+
+.seventh .privacy{
+	margin: 0 0 0 6px;
+	padding: 0 8px 0 0;
+	border-right: 2px solid #16a085;
+}
+
+.seventh .our-teams{
+	margin: 0 0 0 6px;
+}
+
+.seventh .seventh-text2{
+	font-family: GothamRoundedBold; 
+	font-size: 14px;
+	letter-spacing: 2.1px;
+	line-height: 90%;
+	color:#373737;
+	margin: 21px 0 0 126px;
+}
+
+.seventh img{
+	position:relative;
+	left:1097px;
+	top:-56px;
+}
