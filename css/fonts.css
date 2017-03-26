@@ -1,0 +1,71 @@
+@font-face {
+font-family: "GothamRounded-Bold";
+src: local("GothamRounded-Bold");
+src: url("../lib/fonts/GothamRounded-Bold.otf");
+}
+
+@font-face {
+font-family: "GothamRounded-Medium";
+src: local("GothamRounded-Medium");
+src: url("../lib/fonts/GothamRounded-Medium.otf");
+}
+
+@font-face {
+font-family: "GothamRounded-BoldItalic";
+src: local("GothamRounded-BoldItalic");
+src: url("../lib/fonts/GothamRounded-BoldItalic.otf");
+}
+
+@font-face {
+font-family: "GothamRounded-Book";
+src: local("GothamRounded-Book");
+src: url("../lib/fonts/GothamRounded-Book.otf");
+}
+
+@font-face {
+font-family: "GothamRounded-BookItalic";
+src: local("GothamRounded-BookItalic");
+src: url("../lib/fonts/GothamRounded-BookItalic.otf");
+}
+
+@font-face {
+font-family: "GothamRounded-Light";
+src: local("GothamRounded-Light");
+src: url("../lib/fonts/GothamRounded-Light.otf");
+}
+
+@font-face {
+font-family: "GothamRounded-LightItalic";
+src: local("GothamRounded-LightItalic");
+src: url("../lib/fonts/GothamRounded-LightItalic.otf");
+}
+
+@font-face {
+font-family: "GothamRounded-MediumItalic";
+src: local("GothamRounded-MediumItalic");
+src: url("../lib/fonts/GothamRounded-MediumItalic.otf");
+}
+
+@font-face {
+font-family: "GothamRoundedBold_21016";
+src: local("GothamRoundedBold_21016");
+src: url("../lib/fonts/GothamRoundedBold_21016.ttf");
+}
+
+@font-face {
+font-family: "GothamRoundedBook_21018";
+src: local("GothamRoundedBook_21018");
+src: url("../lib/fonts/GothamRoundedBook_21018.ttf");
+}
+
+@font-face {
+font-family: "GothamRoundedLight_21020";
+src: local("GothamRoundedLight_21020");
+src: url("../lib/fonts/GothamRoundedLight_21020.ttf");
+}
+
+@font-face {
+font-family: "GothamRoundedMedium_21022";
+src: local("GothamRoundedMedium_21022");
+src: url("../lib/fonts/GothamRoundedMedium_21022.ttf");
+}

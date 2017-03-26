@@ -1,64 +1,3 @@
-
-@font-face {
-font-family: GothamRoundedBold;
-src: url("../fonts/GothamRounded-Bold.otf");
-}
-
-@font-face {
-font-family: GothamRoundedMedium;
-src: url("../fonts/GothamRounded-Medium.otf");
-}
-
-@font-face {
-font-family: GothamRoundedBoldItalic;
-src: url("../fonts/GothamRounded-BoldItalic.otf");
-}
-
-@font-face {
-font-family: GothamRoundedBook;
-src: url("../fonts/GothamRounded-Book.otf");
-}
-
-@font-face {
-font-family: GothamRoundedBookItalic;
-src: url("../fonts/GothamRounded-BookItalic.otf");
-}
-
-@font-face {
-font-family: GothamRoundedLight;
-src: url("../fonts/GothamRounded-Light.otf");
-}
-
-@font-face {
-font-family: GothamRoundedLightItalic;
-src: url("../fonts/GothamRounded-LightItalic.otf");
-}
-
-@font-face {
-font-family: GothamRoundedMediumItalic;
-src: url("../fonts/GothamRounded-MediumItalic.otf");
-}
-
-@font-face {
-font-family: GothamRoundedBoldSpec;
-src: url("../fonts/GothamRoundedBold_21016.ttf");
-}
-
-@font-face {
-font-family: GothamRoundedBookSpec;
-src: url("../fonts/GothamRoundedBook_21018.ttf");
-}
-
-@font-face {
-font-family: GothamRoundedLightSpec;
-src: url("../fonts/GothamRoundedLight_21020.ttf");
-}
-
-@font-face {
-font-family: GothamRoundedMediumSpec;
-src: url("../fonts/GothamRoundedMedium_21022.ttf");
-}
-
 body{
 	margin:0;
 	padding:0;
@@ -130,7 +69,7 @@ body{
 	font-size: 16px;
 	color:#ffffff;
 	text-decoration:none;
-	font-family: GothamRoundedBold;
+	font-family: "GothamRounded-Bold";
 	letter-spacing: 2.35px;
 }
 
@@ -147,7 +86,7 @@ body{
 }
 
 .first .first-title1{
-	font-family: GothamRoundedBold;
+	font-family: "GothamRounded-Bold";
 	font-size: 36px;
 	letter-spacing: 5.4px;
 	color: #ffffff;
@@ -159,7 +98,7 @@ body{
 	margin-top: -29px;
 	font-size: 16px;
 	color: #ffffff;
-	font-family: GothamRoundedMedium;
+	font-family: "GothamRounded-Medium";
 	margin-left: 475px;
 	letter-spacing: 2.4px;
 }
@@ -178,7 +117,7 @@ body{
 .first .buttom a{
 	font-size: 12px;
 	letter-spacing: 1.85px;
-	font-family: GothamRoundedBold;
+	font-family: "GothamRounded-Bold";
 	text-decoration: none;
 	color:#ffffff;
 }
@@ -214,13 +153,13 @@ body{
 	padding:0;
 	letter-spacing: 2.7px;
 	color:#16a085;
-	font-family: GothamRoundedBold; 
+	font-family: "GothamRounded-Bold"; 
 	font-size: 18px;
 }
 
 .second .second-text{
 	margin: 40px 0 0 127px;
-	font-family: GothamRoundedLightSpec;
+	font-family: "GothamRoundedLight_21020";
 	line-height: 200%;
 	font-size: 12px;
 	letter-spacing: 1.85px;
@@ -243,7 +182,7 @@ body{
 .second .buttom a{
 	font-size: 12px;
 	letter-spacing: 1.8px;
-	font-family: GothamRoundedBold;
+	font-family: "GothamRounded-Bold";
 	text-decoration: none;
 	color:#ffffff;
 }
@@ -253,13 +192,13 @@ body{
 	padding:0;
 	letter-spacing: 2.7px;
 	color:#16a085;
-	font-family: GothamRoundedBold; 
+	font-family: "GothamRounded-Bold"; 
 	font-size: 18px;
 }
 
 .third .third-text{
 	margin: 35px 0 0 768px;
-	font-family: GothamRoundedLightSpec;
+	font-family: "GothamRoundedLight_21020";
 	line-height: 185%;
 	font-size: 12px;
 	letter-spacing: 1.85px;
@@ -281,7 +220,7 @@ body{
 .third .buttom a{
 	font-size: 12px;
 	letter-spacing: 1.8px;
-	font-family: GothamRoundedMedium;
+	font-family: "GothamRounded-Medium";
 	text-decoration: none;
 	color:#ffffff;
 }
@@ -289,7 +228,7 @@ body{
 .third .date{
 	font-size: 12px;
 	letter-spacing: 1.8px;
-	font-family: GothamRoundedBold;
+	font-family: "GothamRounded-Bold";
 	margin: 43px 0 0 766px;
 	color:#373737;
 }
@@ -346,14 +285,14 @@ body{
 }
 
 .fourth .fourth-title{
-	font-family: GothamRoundedBold; 
+	font-family: "GothamRounded-Bold"; 
 	font-size: 16px;
 	letter-spacing: 2.35px;
 	margin: -117px 0 0 129px;
 }
 
 .fourth .fourth-text{
-	font-family: GothamRoundedLight;
+	font-family: "GothamRounded-Light";
 	font-size: 10px;
 	width: 200px;
 	margin: 0 0 0 118px;
@@ -371,7 +310,7 @@ body{
 }
 
 .fifth .fifth-title{
-	font-family: GothamRoundedBold; 
+	font-family: "GothamRounded-Bold"; 
 	font-size: 24px;
 	color:#ffffff;
 	letter-spacing: 3.6px;
@@ -381,7 +320,7 @@ body{
 .fifth input[name="email"]{
 	position:relative;
 	top:-39px;
-	font-family: GothamRoundedMedium;
+	font-family: "GothamRounded-Medium";
 	letter-spacing: 2.5px;
 	font-size:16px;
 	color:#373737;
@@ -410,7 +349,7 @@ body{
 	margin-top:1px;
 }
 .sixst .sixst-title{
-	font-family: GothamRoundedBold; 
+	font-family: "GothamRounded-Bold"; 
 	font-size: 20px;
 	margin: 85px 0 0 546px;
 	letter-spacing: 3px;
@@ -420,7 +359,7 @@ body{
 .sixst .sixst-text {
 	width: 841;
 	text-align: center;
-	font-family: GothamRoundedMedium;
+	font-family: "GothamRounded-Medium";
 	font-size: 12px;
 	color:#373737;
 	line-height: 90%;
@@ -436,7 +375,7 @@ body{
 	display:inline-block;
 	position:relative;
 	top:-20px;
-	font-family: GothamRoundedBold; 
+	font-family: "GothamRounded-Bold"; 
 	font-size: 16px;
 	letter-spacing: 2.4px;
 	color:#ffffff;
@@ -461,7 +400,7 @@ body{
 	display:inline-block;
 	position:relative;
 	top:-21px;
-	font-family: GothamRoundedBold; 
+	font-family: "GothamRounded-Bold"; 
 	font-size: 18px;
 	letter-spacing: 2.7px;
 	color:#ffffff;
@@ -484,7 +423,7 @@ body{
 
 .seventh .seventh-text1{
 	display: inline-block;
-	font-family: GothamRoundedBold; 
+	font-family: "GothamRounded-Bold"; 
 	font-size: 14px;
 	letter-spacing: 2.1px;
 	line-height: 90%;
@@ -508,7 +447,7 @@ body{
 }
 
 .seventh .seventh-text2{
-	font-family: GothamRoundedBold; 
+	font-family: "GothamRounded-Bold"; 
 	font-size: 14px;
 	letter-spacing: 2.1px;
 	line-height: 90%;
